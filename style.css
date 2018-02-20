@@ -1,0 +1,18 @@
+
+body {
+    font-family: 'Helvetica Neue';
+    background: black;
+    color: antiquewhite;
+}
+
+h1 {
+    font-size: 12em;
+    margin-bottom: 20px;
+}
+.sub-heading {
+    font-style: italic;
+}
+
+#about {
+    font-size: 2em;
+}
