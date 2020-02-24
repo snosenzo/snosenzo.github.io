@@ -1,22 +1,66 @@
-
+* {
+  box-sizing: border-box;
+}
 body {
-    font-family: 'Helvetica Neue';
-    background: black;
-    color: antiquewhite;
+  font-family: "Helvetica Neue";
+  background: #1c1e26;
+  color: antiquewhite;
+  display: flex;
+  align-items: flex-start;
 }
 
 h1 {
-    font-size: 12em;
-    margin-bottom: 20px;
+  font-size: 3em;
+  margin-bottom: 20px;
 }
-.sub-heading {
-    font-style: italic;
+#about {
+  font-size: 1em;
+}
+#about-container {
+  padding: 50px;
+  flex-grow: 1;
+  max-width: 600px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5px;
+}
+#projects-container {
+  display: none;
+  margin: 60px 50px 40px 50px;
+  flex-grow: 2;
+  overflow-y: scroll;
 }
 
-#about {
-    font-size: 2em;
+.sub-heading {
+  font-style: italic;
+}
+
+.projects-heading {
+  margin: 30px 0 30px 10px;
+  font-size: 2em;
+  font-style: italic;
+  font-weight: 550;
+  width: fit-content;
+}
+.project {
+  padding: 20px;
+  border-left: 1px solid antiquewhite;
+}
+
+.project-name {
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: 510;
+  padding: 0px 0px 10px 20px;
+}
+
+img {
+  padding: 10px;
+  max-width: 100%;
+  display: block;
 }
 
 a {
-    color: antiquewhite;
+  color: antiquewhite;
+  width: fit-content;
 }
