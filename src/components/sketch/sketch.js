@@ -1,10 +1,7 @@
 // Ensure ThreeJS is in global scope for the 'examples/'
 import * as THREE from "three";
 global.THREE = THREE;
-import OrbitControls from "three-orbitcontrols";
 import { generateLineMarkersGeometry } from "./hatch-mark-util";
-
-const glsl = require("glslify");
 
 export const sketch = ({ context }) => {
   // Create a renderer
@@ -28,18 +25,18 @@ export const sketch = ({ context }) => {
 
   const geometry = new THREE.IcosahedronGeometry(1, 3);
   // mesh
-  var material = new THREE.MeshPhongMaterial({
+  const material = new THREE.MeshPhongMaterial({
     polygonOffset: true,
     polygonOffsetFactor: 1, // positive value pushes polygon further away
     polygonOffsetUnits: 1,
   });
-  var mesh = new THREE.Mesh(geometry, material);
+  const mesh = new THREE.Mesh(geometry, material);
   scene.add(mesh);
 
   // wireframe
-  var geo = new THREE.EdgesGeometry(mesh.geometry); // or WireframeGeometry
-  var mat = new THREE.LineBasicMaterial({ color: 0xff6959, linewidth: 2 });
-  var wireframe = new THREE.Line(geo, mat);
+  const geo = new THREE.EdgesGeometry(mesh.geometry); // or WireframeGeometry
+  const mat = new THREE.LineBasicMaterial({ color: 0xff6959, linewidth: 2 });
+  const wireframe = new THREE.Line(geo, mat);
   mesh.add(wireframe);
 
   const markerGeo = generateLineMarkersGeometry({
