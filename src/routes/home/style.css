@@ -1,0 +1,34 @@
+.home {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.splash {
+  padding: 50px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.sectionHeading {
+  width: 450px;
+  margin: 0 auto;
+  padding: 20px 0;
+  font-size: 2em;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.projectList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.project {
+  position: relative;
+}

@@ -1,0 +1,34 @@
+a {
+  width: 100%;
+  height: 100%;
+}
+.projectContainer {
+  padding: 1em;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  margin-bottom: 2em;
+}
+
+.projectContainer:hover {
+  background: #444;
+}
+
+.projectTitle {
+  font-size: 1.5em;
+  font-weight: 800;
+}
+
+.skills {
+  font-size: 0.9em;
+  font-family: monospace;
+  font-style: italic;
+  margin-bottom: 0.5em;
+}
+
+.projectTitle,
+.skills {
+  border-left: 1px solid #555;
+  padding-left: 10px;
+}
