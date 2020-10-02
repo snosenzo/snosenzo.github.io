@@ -6,7 +6,8 @@ import { sketch } from "./sketch";
 const Sketch = () => {
   const canvasRef = useRef(null);
   const { width: windowWidth } = useWindowSize();
-  const canvasSize = Math.min(windowWidth * 0.6, 400);
+  const canvasSize = Math.min(windowWidth * 0.6, 500);
+  // eslint-disable-next-line
   useEffect(async () => {
     if (canvasRef.current) {
       const settings = {

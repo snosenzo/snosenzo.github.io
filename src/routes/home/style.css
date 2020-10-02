@@ -7,19 +7,10 @@
 }
 
 .splash {
-  padding: 50px 0;
+  padding: 1px 0;
   width: 100%;
   display: flex;
   justify-content: center;
-}
-
-.sectionHeading {
-  width: 450px;
-  margin: 0 auto;
-  padding: 20px 0;
-  font-size: 2em;
-  text-decoration: underline;
-  font-style: italic;
 }
 
 .projectList {
