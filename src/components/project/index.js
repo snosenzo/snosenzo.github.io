@@ -1,9 +1,16 @@
+import { useState } from "preact/hooks";
 import style from "./style.css";
 
 const Project = (props) => {
-  const { projectTitle, skillList, description, link } = props;
+  const { projectTitle, skillList, description, link, imageSrc } = props;
+  const [isHovered, setHovered] = useState(false);
   return (
-    <div class={style.projectContainer}>
+    <div
+      class={style.projectContainer}
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
+    >
+      {isHovered && <img src={imageSrc} />}
       <a href={link}>
         <div class={style.projectTitle}>{projectTitle}</div>
         <div class={style.skills}>[{skillList.join(" | ")}]</div>

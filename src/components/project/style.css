@@ -3,12 +3,21 @@ a {
   height: 100%;
 }
 .projectContainer {
+  position: relative;
   padding: 1em;
   width: 100%;
   max-width: 700px;
   border: 1px solid #fff;
   cursor: pointer;
   margin-bottom: 2em;
+}
+
+.projectContainer img {
+  position: absolute;
+  z-index: 10;
+  right: -1px;
+  bottom: 130px;
+  max-width: 300px;
 }
 
 .projectContainer:hover {
