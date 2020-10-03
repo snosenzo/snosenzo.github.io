@@ -12,7 +12,7 @@ export default [
     description:
       "3D Data Sculpture created from t-SNE algorithm processing word 2 vec dataset.",
     link: "https://github.com/snosenzo/tsne-motionsculpture",
-    imageSrc: "/assets/tsne-capture.png",
+    imageSrc: "/assets/tsne.png",
   },
   {
     projectTitle: "Generative Study of Breathing",
