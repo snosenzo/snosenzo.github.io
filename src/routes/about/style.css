@@ -18,21 +18,3 @@
 .about a:hover {
   color: #fff;
 }
-
-.socials {
-  flex-direction: column;
-  font-style: italic;
-  font-size: 0.9em;
-}
-
-.socials a {
-  width: fit-content;
-  padding: 5px 0px;
-  text-decoration: underline;
-  display: block;
-  height: fit-content;
-}
-
-.socials a:hover {
-  color: #ddd;
-}

@@ -6,10 +6,10 @@ function Header() {
   return (
     <header class={style.header}>
       <Link class={style.nameplate} activeClassName={style.active} href="/">
-        Sam Nosenzo
+        Sam Nosenzo &#8962;
       </Link>
       <Link class={style.about} activeClassName={style.active} href="/about">
-        ?
+        About
       </Link>
     </header>
   );

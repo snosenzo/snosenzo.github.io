@@ -1,0 +1,21 @@
+.footer {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-around;
+  margin: 1.5em auto;
+  width: 50%;
+  min-width: 500px;
+}
+
+.footer a {
+  color: #ff6959;
+  width: fit-content;
+  padding: 5px 0px;
+  text-decoration: underline;
+  display: block;
+  height: fit-content;
+}
+
+.footer a:hover {
+  color: #ddd;
+}

@@ -2,7 +2,6 @@ import style from "./style.css";
 import SafeLink from "../../components/safe-link";
 
 const About = () => {
-  console.log(style);
   return (
     <div class="mainContentContainer">
       <div class="sectionHeading">About</div>
@@ -21,14 +20,7 @@ const About = () => {
           for pen-plotting.
         </p>
         <p>Always looking for creative opportunities and projects!</p>
-        <p>Feel free to reach out</p>
-      </div>
-      <div class={`${style.about} ${style.socials}`}>
-        <SafeLink href="https://github.com/snosenzo">Github</SafeLink>
-        <SafeLink href="https://linkedin.com/in/samnosenzo">LinkedIn</SafeLink>
-        <SafeLink href="https://twitter.com/samnosenzo">Twitter</SafeLink>
-        <SafeLink href="https://www.instagram.com/n_senz_/">Instagram</SafeLink>
-        <SafeLink href="https://www.are.na/sam-nosenzo">Are.na</SafeLink>
+        <p>Feel free to reach out~</p>
       </div>
     </div>
   );

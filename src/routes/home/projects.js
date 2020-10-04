@@ -30,4 +30,13 @@ export default [
     link: "https://github.com/snosenzo/organic-typography",
     imageSrc: "/assets/organic-type.png",
   },
+  {
+    projectTitle: "7,105 Faces, In Order",
+    skillList: ["Processing/Java", "Facial Recognition", "Digital Humanities"],
+    description:
+      'Utilized Facial Recognition software to place 7,105 faces in order of "similarity" in order',
+    link:
+      "https://uag.pitt.edu/index.php/Gallery/81/theme_item/1/set_item_id/14225",
+    imageSrc: "/assets/faces.png",
+  },
 ];

@@ -12,6 +12,7 @@ const Project = (props) => {
     >
       {isHovered && <img src={imageSrc} />}
       <a href={link}>
+        {isHovered && <div class={style.symbol}>&#8599;</div>}
         <div class={style.projectTitle}>{projectTitle}</div>
         <div class={style.skills}>[{skillList.join(" | ")}]</div>
         <div class={style.description}>{description}</div>
