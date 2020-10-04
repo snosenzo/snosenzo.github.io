@@ -11,8 +11,11 @@ const About = () => {
         </div>
         <p>
           Currently a software engineer working on map-based applications at
-          Uber ATG. Pursuing personal generative projects using{" "}
-          <SafeLink href="https://www.p5js.org">p5.js</SafeLink>. Recently
+          Uber ATG utilizing{" "}
+          <SafeLink href="https://deck.gl/">Deck.gl</SafeLink>. Pursuing
+          personal generative projects using{" "}
+          <SafeLink href="https://www.p5js.org">p5.js</SafeLink> and{" "}
+          <SafeLink href="https://threejs.org/">Three.js</SafeLink>. Recently
           exploring{" "}
           <SafeLink href="https://twitter.com/SamNosenzo/status/1227116031115747328?s=20">
             polygon line-fill/hatching methods
@@ -20,7 +23,12 @@ const About = () => {
           for pen-plotting.
         </p>
         <p>Always looking for creative opportunities and projects!</p>
-        <p>Feel free to reach out~</p>
+        <p>
+          Feel free to reach out on twitter or @ samnosenzo[at]gmail(dot)com
+        </p>
+        <p>
+          <SafeLink href="/assets/resume.pdf">Résumé</SafeLink>
+        </p>
       </div>
     </div>
   );
