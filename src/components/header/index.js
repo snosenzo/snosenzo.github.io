@@ -5,10 +5,24 @@ import style from "./style.css";
 function Header() {
   return (
     <header class={style.header}>
-      <Link class={style.nameplate} activeClassName={style.active} href="/">
-        Sam Nosenzo &#8962;
+      <div class={style.nameplate}>
+        <div>Sam Nosenzo</div>
+        <div class={style.nameplateSubtitle}>
+          Frontend/Creative Developer/Engineer
+        </div>
+      </div>
+      <Link
+        class={`${style.link} ${style.home}`}
+        activeClassName={style.active}
+        href="/"
+      >
+        &#8962;
       </Link>
-      <Link class={style.about} activeClassName={style.active} href="/about">
+      <Link
+        class={`${style.link} ${style.about}`}
+        activeClassName={style.active}
+        href="/about"
+      >
         About
       </Link>
     </header>
