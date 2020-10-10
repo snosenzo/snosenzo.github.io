@@ -15,7 +15,7 @@ const Project = (props) => {
       <SafeLink href={link}>
         {isHovered && <div class={style.symbol}>&#8599;</div>}
         <div class={style.projectTitle}>{projectTitle}</div>
-        <div class={style.skills}>[{skillList.join(" | ")}]</div>
+        {skillList && <div class={style.skills}>[{skillList.join(" | ")}]</div>}
         <div class={style.description}>{description}</div>
       </SafeLink>
     </div>
