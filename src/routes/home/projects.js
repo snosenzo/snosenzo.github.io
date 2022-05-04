@@ -1,7 +1,7 @@
 export default [
   {
     projectTitle: 'PseudoCharacters',
-    skillList: ['p5.js', 'javascript', 'canvas-sketch'],
+    skillList: ['p5.js/JavaScript', 'canvas-sketch'],
     description: 'Asemic Character Generation Using p5.js',
     link: 'https://github.com/snosenzo/pseudocharacters',
     imageSrc: '/assets/pseudocharacters.png',

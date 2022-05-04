@@ -1,5 +1,5 @@
-import style from "./style.css";
-import SafeLink from "../../components/safe-link";
+import style from './style.css';
+import SafeLink from '../../components/safe-link';
 
 const About = () => {
   return (
@@ -11,15 +11,15 @@ const About = () => {
         </div>
         <p>
           Currently a software engineer working on map-based applications at
-          Uber ATG utilizing{" "}
+          Aurora Innovation utilizing{' '}
           <SafeLink href="https://deck.gl/">Deck.gl</SafeLink>. Pursuing
-          personal generative projects using{" "}
-          <SafeLink href="https://www.p5js.org">p5.js</SafeLink> and{" "}
+          personal generative projects using{' '}
+          <SafeLink href="https://www.p5js.org">p5.js</SafeLink> and{' '}
           <SafeLink href="https://threejs.org/">Three.js</SafeLink>. Recently
-          exploring{" "}
+          exploring{' '}
           <SafeLink href="https://twitter.com/SamNosenzo/status/1227116031115747328?s=20">
             polygon line-fill/hatching methods
-          </SafeLink>{" "}
+          </SafeLink>{' '}
           for pen-plotting.
         </p>
         <p>Always looking for creative opportunities and projects!</p>

@@ -2,9 +2,11 @@
   flex-shrink: 0;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   margin: 1.5em auto;
   width: 50%;
   min-width: 500px;
+  padding-bottom: 20px;
 }
 
 .footer a {
@@ -18,4 +20,15 @@
 
 .footer a:hover {
   color: #ddd;
+}
+@media only screen and (max-device-width: 640px) {
+  .footer {
+    min-width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 768px) {
+  .footer {
+    min-width: 100%;
+  }
 }

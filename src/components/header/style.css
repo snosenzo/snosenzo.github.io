@@ -59,3 +59,20 @@
 .active {
   border: 1px solid #ff6959;
 }
+@media only screen and (max-device-width: 640px) {
+  .nameplateSubtitle {
+    display: none;
+  }
+  .header {
+    background: #000;
+  }
+}
+
+@media only screen and (max-device-width: 768px) {
+  .nameplateSubtitle {
+    display: none;
+  }
+  .header {
+    background: #000;
+  }
+}

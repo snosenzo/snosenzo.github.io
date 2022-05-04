@@ -7,7 +7,17 @@
 .about {
   font-size: 1.35em;
   width: 45%;
-  min-width: 500px;
+}
+@media only screen and (max-device-width: 640px) {
+  .about {
+    min-width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 768px) {
+  .about {
+    min-width: 100%;
+  }
 }
 
 .about a {
